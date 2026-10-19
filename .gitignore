@@ -6,6 +6,10 @@ debug.log
 *.debug.log
 *.log
 
+# 本地发布诊断输出（不属于发布内容）
+publish-out.txt
+publish.log
+
 # 安装脚本备份
 cordis.patch.yml.bak
 

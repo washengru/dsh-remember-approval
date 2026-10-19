@@ -2,6 +2,10 @@
 
 > 同一会话里，**已经人工批准过**的审批请求不再重复询问。
 
+**状态：v0.1.0 · beta** —— 目前只在 DSH 桌面版（Windows、`desktop` profile）上做过
+真机验证；核心逻辑有单元测试覆盖，但其他平台/版本是否完全一致尚未验证，遇到问题
+请开 issue。
+
 **EN** — A DeepSeek Harness plugin: once you manually approve a request in a
 session, later requests matching the same `tool + action prefix` are allowed
 without prompting (session-scoped). DSH has no allow-always natively; this
