@@ -1,0 +1,45 @@
+{
+  "name": "dsh-remember-approval",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 插件：同一会话内，已经人工批准过的同类审批请求不再重复询问（按 会话 + 工具 + 动作前缀 记忆）。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "approval",
+    "permission",
+    "allow-always"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "washengru",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/washengru/dsh-remember-approval.git"
+  },
+  "homepage": "https://github.com/washengru/dsh-remember-approval",
+  "bugs": {
+    "url": "https://github.com/washengru/dsh-remember-approval/issues"
+  }
+}

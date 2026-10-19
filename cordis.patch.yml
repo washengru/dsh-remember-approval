@@ -1,0 +1,6 @@
+# dsh-remember-approval bundle 层：把插件挂到 host 上。
+# 安装：dsh plugin --profile desktop add ./dsh-remember-approval
+# 或手工拷到 profiles/<profile>/node_modules/ 后在 profile 的 cordis.patch.yml 里 insert。
+- insert:
+    - id: remember-approval
+      name: dsh-remember-approval

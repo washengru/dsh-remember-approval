@@ -1,0 +1,16 @@
+# 依赖与构建产物
+node_modules/
+
+# 调试日志（插件 debug=true 时会写；默认在系统临时目录，这里兜底）
+debug.log
+*.debug.log
+*.log
+
+# 安装脚本备份
+cordis.patch.yml.bak
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
